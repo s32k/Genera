@@ -1,0 +1,37 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body { 
+  padding: 0; 
+  margin: 0; 
+  background-color: rgb(255,245,235);
+  flex-direction: column;
+}
+
+.title{
+  padding-top: 6.25%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Red Hat Mono', monospace;
+  color: #424240;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.images-container{
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  align-items: flex-end;
+  /*align-items: flex-start;*/
+}
+
+.images-container img {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 150px;
+  height: 400px;
+}
