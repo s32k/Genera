@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body { 
+  padding: 0; 
+  margin: 0; 
+  background-color: rgb(255,245,235);
+}
+
+.description {
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  right: 0px;
+  top: 58%;
+  left: 82.1%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display:flex;
+  flex-direction: column;
+}
+
+.name {
+  font-family: 'Red Hat Mono', monospace;
+  color: #5b8a6c;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.rest {
+  padding-top: 10px;
+  font-family: 'Red Hat Mono', monospace;
+  color: #5b8a6c;
+  font-weight: 400;
+  font-size: 0.9em;
+}
